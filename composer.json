@@ -1,6 +1,7 @@
 {
   "name": "slavcodev/phpunit-constraint-builder",
   "description": "PHPUnit constraint builder",
+  "license": "MIT",
   "config": {
     "discard-changes": true,
     "optimize-autoloader": true,
