@@ -1,5 +1,5 @@
 {
-  "name": "slavcodev/phpunit-contraint-builder",
+  "name": "slavcodev/phpunit-constraint-builder",
   "description": "PHPUnit constraint builder",
   "config": {
     "discard-changes": true,
