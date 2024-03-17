@@ -1,0 +1,47 @@
+{
+  "name": "slavcodev/phpunit-contraint-builder",
+  "description": "PHPUnit constraint builder",
+  "config": {
+    "discard-changes": true,
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "authors": [
+    {"email": "slavcopost@gmail.com", "name": "Veaceslav Medvedev"}
+  ],
+  "minimum-stability": "stable",
+  "repositories": [],
+  "require": {
+    "php": "~8.2.0 || ~8.3.0",
+    "phpunit/phpunit": "^11.0.3"
+  },
+  "require-dev": {
+    "php-cs-fixer/shim": "^3.50",
+    "psalm/phar": "^5.22.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Slavcodev\\PHPUnit\\": ["src"],
+      "Slavcodev\\PHPUnit\\Tests\\": ["tests"]
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.x-dev"
+    }
+  },
+  "scripts": {
+    "test-code": "phpunit --colors=always --testsuite=unit",
+    "test-sca": "psalm.phar --find-dead-code=always --show-info=false --long-progress",
+    "fix-cs": "php-cs-fixer fix -v --diff --ansi",
+    "test-cs": "@fix-cs --dry-run",
+    "lint": [
+      "@test-cs",
+      "@test-sca"
+    ],
+    "test": [
+      "@lint",
+      "@test-code"
+    ]
+  }
+}
