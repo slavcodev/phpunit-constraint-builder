@@ -14,7 +14,7 @@
   "repositories": [],
   "require": {
     "php": "~8.2.0 || ~8.3.0",
-    "phpunit/phpunit": "^11.0.8"
+    "phpunit/phpunit": "^11.0.9"
   },
   "require-dev": {
     "php-cs-fixer/shim": "^3.52.1",
