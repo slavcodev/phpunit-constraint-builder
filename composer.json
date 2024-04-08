@@ -14,10 +14,10 @@
   "repositories": [],
   "require": {
     "php": "~8.2.0 || ~8.3.0",
-    "phpunit/phpunit": "^11.1.0"
+    "phpunit/phpunit": "^11.1.1"
   },
   "require-dev": {
-    "php-cs-fixer/shim": "^3.52.1",
+    "php-cs-fixer/shim": "^3.53.0",
     "psalm/phar": "^5.23.1"
   },
   "autoload": {
