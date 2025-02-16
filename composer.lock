@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1de32d52418aa1a4522beb08e00f2950",
+    "content-hash": "b114785d8636e52bc14308c6f2541667",
     "packages": [
         {
             "name": "myclabs/deep-copy",
@@ -1750,16 +1750,16 @@
         },
         {
             "name": "psalm/phar",
-            "version": "6.6.0",
+            "version": "6.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/phar.git",
-                "reference": "daeb6f387946556e93aaaf2be2258c83e043e637"
+                "reference": "6bd3007a43c220e6fa7774f07784e849cef828e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/phar/zipball/daeb6f387946556e93aaaf2be2258c83e043e637",
-                "reference": "daeb6f387946556e93aaaf2be2258c83e043e637",
+                "url": "https://api.github.com/repos/psalm/phar/zipball/6bd3007a43c220e6fa7774f07784e849cef828e8",
+                "reference": "6bd3007a43c220e6fa7774f07784e849cef828e8",
                 "shasum": ""
             },
             "require": {
@@ -1779,9 +1779,9 @@
             "description": "Composer-based Psalm Phar",
             "support": {
                 "issues": "https://github.com/psalm/phar/issues",
-                "source": "https://github.com/psalm/phar/tree/6.6.0"
+                "source": "https://github.com/psalm/phar/tree/6.6.1"
             },
-            "time": "2025-02-15T17:43:42+00:00"
+            "time": "2025-02-16T17:19:57+00:00"
         }
     ],
     "aliases": [],
