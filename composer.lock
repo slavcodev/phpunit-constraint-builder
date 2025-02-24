@@ -567,16 +567,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.5.7",
+            "version": "11.5.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "e1cb706f019e2547039ca2c839898cd5f557ee5d"
+                "reference": "c91c830e7108a81e5845aeb6ba8fe3c1a4351c0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e1cb706f019e2547039ca2c839898cd5f557ee5d",
-                "reference": "e1cb706f019e2547039ca2c839898cd5f557ee5d",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c91c830e7108a81e5845aeb6ba8fe3c1a4351c0b",
+                "reference": "c91c830e7108a81e5845aeb6ba8fe3c1a4351c0b",
                 "shasum": ""
             },
             "require": {
@@ -586,7 +586,7 @@
                 "ext-mbstring": "*",
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
-                "myclabs/deep-copy": "^1.12.1",
+                "myclabs/deep-copy": "^1.13.0",
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.2",
@@ -648,7 +648,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.7"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.9"
             },
             "funding": [
                 {
@@ -664,7 +664,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-02-06T16:10:05+00:00"
+            "time": "2025-02-21T06:08:50+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -1698,16 +1698,16 @@
     "packages-dev": [
         {
             "name": "php-cs-fixer/shim",
-            "version": "v3.69.0",
+            "version": "v3.70.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/shim.git",
-                "reference": "ae4a74a1248db556a2bd682cf691b3f58337c84c"
+                "reference": "9302388f32d5181cd7238717860391396c592f36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/shim/zipball/ae4a74a1248db556a2bd682cf691b3f58337c84c",
-                "reference": "ae4a74a1248db556a2bd682cf691b3f58337c84c",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/shim/zipball/9302388f32d5181cd7238717860391396c592f36",
+                "reference": "9302388f32d5181cd7238717860391396c592f36",
                 "shasum": ""
             },
             "require": {
@@ -1744,26 +1744,26 @@
             "description": "A tool to automatically fix PHP code style",
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/shim/issues",
-                "source": "https://github.com/PHP-CS-Fixer/shim/tree/v3.69.0"
+                "source": "https://github.com/PHP-CS-Fixer/shim/tree/v3.70.0"
             },
-            "time": "2025-02-15T20:38:59+00:00"
+            "time": "2025-02-22T23:31:12+00:00"
         },
         {
             "name": "psalm/phar",
-            "version": "6.6.1",
+            "version": "6.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/phar.git",
-                "reference": "6bd3007a43c220e6fa7774f07784e849cef828e8"
+                "reference": "dc092300ad8028301f9825c6f44af6e95982218f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/phar/zipball/6bd3007a43c220e6fa7774f07784e849cef828e8",
-                "reference": "6bd3007a43c220e6fa7774f07784e849cef828e8",
+                "url": "https://api.github.com/repos/psalm/phar/zipball/dc092300ad8028301f9825c6f44af6e95982218f",
+                "reference": "dc092300ad8028301f9825c6f44af6e95982218f",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^8.2"
             },
             "conflict": {
                 "vimeo/psalm": "*"
@@ -1779,9 +1779,9 @@
             "description": "Composer-based Psalm Phar",
             "support": {
                 "issues": "https://github.com/psalm/phar/issues",
-                "source": "https://github.com/psalm/phar/tree/6.6.1"
+                "source": "https://github.com/psalm/phar/tree/6.8.6"
             },
-            "time": "2025-02-16T17:19:57+00:00"
+            "time": "2025-02-21T10:06:54+00:00"
         }
     ],
     "aliases": [],
