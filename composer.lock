@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54fa050126fcced6e543f6cb1ced4c1a",
+    "content-hash": "a59f3497a9dfdc00620c53a5be2925ee",
     "packages": [
         {
             "name": "myclabs/deep-copy",
@@ -1698,16 +1698,16 @@
     "packages-dev": [
         {
             "name": "php-cs-fixer/shim",
-            "version": "v3.95.25",
+            "version": "v3.95.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/shim.git",
-                "reference": "7bc6ed86d41533dbfa5604fb4dd4d6a656b87254"
+                "reference": "cba177ed1173161a9e46d46c7bf3cf614ce66277"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/shim/zipball/7bc6ed86d41533dbfa5604fb4dd4d6a656b87254",
-                "reference": "7bc6ed86d41533dbfa5604fb4dd4d6a656b87254",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/shim/zipball/cba177ed1173161a9e46d46c7bf3cf614ce66277",
+                "reference": "cba177ed1173161a9e46d46c7bf3cf614ce66277",
                 "shasum": ""
             },
             "require": {
@@ -1744,7 +1744,7 @@
             "description": "A tool to automatically fix PHP code style",
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/shim/issues",
-                "source": "https://github.com/PHP-CS-Fixer/shim/tree/v3.95.25"
+                "source": "https://github.com/PHP-CS-Fixer/shim/tree/v3.95.27"
             },
             "funding": [
                 {
@@ -1752,24 +1752,24 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-08T11:12:09+00:00"
+            "time": "2026-09-22T09:55:22+00:00"
         },
         {
             "name": "psalm/phar",
-            "version": "6.6.1",
+            "version": "6.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/phar.git",
-                "reference": "6bd3007a43c220e6fa7774f07784e849cef828e8"
+                "reference": "fc639aa37596170086216d1bfed2000c537782c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/phar/zipball/6bd3007a43c220e6fa7774f07784e849cef828e8",
-                "reference": "6bd3007a43c220e6fa7774f07784e849cef828e8",
+                "url": "https://api.github.com/repos/psalm/phar/zipball/fc639aa37596170086216d1bfed2000c537782c8",
+                "reference": "fc639aa37596170086216d1bfed2000c537782c8",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^8.2"
             },
             "conflict": {
                 "vimeo/psalm": "*"
@@ -1785,9 +1785,9 @@
             "description": "Composer-based Psalm Phar",
             "support": {
                 "issues": "https://github.com/psalm/phar/issues",
-                "source": "https://github.com/psalm/phar/tree/6.6.1"
+                "source": "https://github.com/psalm/phar/tree/6.18.1"
             },
-            "time": "2025-02-16T17:19:57+00:00"
+            "time": "2026-09-25T20:37:58+00:00"
         }
     ],
     "aliases": [],
