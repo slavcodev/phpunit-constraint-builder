@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54fa050126fcced6e543f6cb1ced4c1a",
+    "content-hash": "f6a63c1025f33f65b726065aa1863e58",
     "packages": [
         {
             "name": "myclabs/deep-copy",
@@ -1756,20 +1756,20 @@
         },
         {
             "name": "psalm/phar",
-            "version": "6.6.1",
+            "version": "7.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/phar.git",
-                "reference": "6bd3007a43c220e6fa7774f07784e849cef828e8"
+                "reference": "976253108720687f49ca015ddaa1c515093e4064"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/phar/zipball/6bd3007a43c220e6fa7774f07784e849cef828e8",
-                "reference": "6bd3007a43c220e6fa7774f07784e849cef828e8",
+                "url": "https://api.github.com/repos/psalm/phar/zipball/976253108720687f49ca015ddaa1c515093e4064",
+                "reference": "976253108720687f49ca015ddaa1c515093e4064",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^8.2"
             },
             "conflict": {
                 "vimeo/psalm": "*"
@@ -1785,9 +1785,10 @@
             "description": "Composer-based Psalm Phar",
             "support": {
                 "issues": "https://github.com/psalm/phar/issues",
-                "source": "https://github.com/psalm/phar/tree/6.6.1"
+                "source": "https://github.com/psalm/phar/tree/7.15.0"
             },
-            "time": "2025-02-16T17:19:57+00:00"
+            "time": "2026-11-21T17:59:12+00:00",
+            "published-time": "2026-11-21T17:59:21+00:00"
         }
     ],
     "aliases": [],
@@ -1799,5 +1800,5 @@
         "php": "~8.2.0 || ~8.3.0"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }
